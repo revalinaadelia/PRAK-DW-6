@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuaca Jakarta dengan WeatherAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jakarta</h1>
+            <p id="city-temp">Loading...</p>
+            <p id="description"></p>
+    </div>
+
+    <div class="hourly" id="hourly-forecast">
+        <!-- Cuaca per jam akan dimuat di sini -->
+    </div>
+
+    <div class="main-grid">
+        <div class="seven-day">
+            <h2>7-Day Forecast</h2>
+            <ul id="seven-day-forecast">
+                <!-- Ramalan 7 hari akan dimuat di sini -->
+            </ul>
+        </div>
+    
+        <div class="info">
+            <h3>Informasi Cuaca</h3>
+            <p id="wind-info">Angin</p>
+            <p id="humidity-info">Kelembapan : </p>
+            <p id="uv-index-info">UV Index : </p>
+            <p id="pressure-info">Tekanan Udara : </p>
+            <p id="feels-like-info">Terasa Seperti : </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
